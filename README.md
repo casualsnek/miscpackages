@@ -12,3 +12,11 @@ python3 -m pip install fleep
 python3 snapull.py
 ```
 Files will be put inside "snapull_out" directory
+
+
+## 3. nowindow.vbs
+VBScript to run a command with its arguments without creating visible window 
+Usage:
+```
+wscript nowindow.vbs "C:\Path\to\Program.exe" --its --argument 4
+```
