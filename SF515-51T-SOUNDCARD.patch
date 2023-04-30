@@ -1,0 +1,14 @@
+diff --git a/drivers/pci/pci-acpi.c b/drivers/pci/pci-acpi.c
+index a46fec776ad7..3a58922ed3ee 100644
+--- a/drivers/pci/pci-acpi.c
++++ b/drivers/pci/pci-acpi.c
+@@ -985,8 +985,8 @@ bool acpi_pci_bridge_d3(struct pci_dev *dev)
+return false;
+
+        /* Assume D3 support if the bridge is power-manageable by ACPI. */
+        -       if (acpi_pci_power_manageable(dev))
+        -               return true;
+    +       // if (acpi_pci_power_manageable(dev))
+    +       // return true;
+
+        rpdev = pcie_find_root_port(dev);
