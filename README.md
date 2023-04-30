@@ -20,3 +20,6 @@ Usage:
 ```
 wscript nowindow.vbs "C:\Path\to\Program.exe" --its --argument 4
 ```
+
+## 4. SF515-51T-SOUNDCARD.patch 
+Patch to linux kernel to get soundcard working on Acer swift 5 ( SF515-51T ). Sound does not seem to work on linux > 5.9.1. Apply this patch to kernel source and use it to get audio working. 
